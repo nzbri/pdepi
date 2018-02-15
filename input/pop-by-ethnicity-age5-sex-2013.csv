@@ -1,0 +1,241 @@
+ethnicity,sex,agecut,ethnicpoperp,smokingriskadjust,goutriskadjust
+Asian,F,0,20030,,
+Asian,F,5,16480,,
+Asian,F,10,15990,,
+Asian,F,15,19940,0.86,0.99
+Asian,F,20,25940,0.86,0.99
+Asian,F,25,29520,0.87,0.99
+Asian,F,30,28380,0.87,0.99
+Asian,F,35,21620,0.86,0.99
+Asian,F,40,21910,0.86,0.99
+Asian,F,45,19810,0.86,0.99
+Asian,F,50,17490,0.86,0.99
+Asian,F,55,14420,0.85,0.99
+Asian,F,60,10280,0.85,0.99
+Asian,F,65,6690,0.85,1
+Asian,F,70,4570,0.85,1
+Asian,F,75,2990,0.85,1
+Asian,F,80,1590,0.85,1
+Asian,F,85,670,0.85,1
+Asian,F,90+,320,0.85,1
+Asian,F,85+,990,0.85,1
+Asian,M,0,21100,,
+Asian,M,5,17450,,
+Asian,M,10,16800,,
+Asian,M,15,21650,0.9,0.99
+Asian,M,20,29690,0.9,0.99
+Asian,M,25,28040,0.97,0.99
+Asian,M,30,25740,0.97,0.99
+Asian,M,35,18620,0.96,0.99
+Asian,M,40,17140,0.96,0.99
+Asian,M,45,16180,0.97,1
+Asian,M,50,14310,0.97,1
+Asian,M,55,11840,0.96,1
+Asian,M,60,8960,0.96,1
+Asian,M,65,6040,0.93,1.04
+Asian,M,70,4170,0.93,1.04
+Asian,M,75,2890,0.93,1.04
+Asian,M,80,1390,0.93,1.04
+Asian,M,85,490,0.93,1.04
+Asian,M,90+,160,0.93,1.04
+Asian,M,85+,650,0.93,1.04
+European,F,0,108210,,
+European,F,5,106130,,
+European,F,10,103110,,
+European,F,15,106260,0.94,0.99
+European,F,20,105610,0.94,0.99
+European,F,25,91650,1.03,0.99
+European,F,30,93150,1.03,0.99
+European,F,35,103580,1.02,0.99
+European,F,40,123230,1.02,0.99
+European,F,45,121250,1.02,0.99
+European,F,50,124980,1.02,0.99
+European,F,55,109830,1,0.99
+European,F,60,100930,1,0.99
+European,F,65,89890,0.95,1
+European,F,70,69290,0.95,1
+European,F,75,51450,0.95,1
+European,F,80,42080,0.95,1
+European,F,85,28780,0.95,1
+European,F,90+,16770,0.95,1
+European,F,85+,45550,0.95,1
+European,M,0,114020,,
+European,M,5,110840,,
+European,M,10,108160,,
+European,M,15,110500,0.95,0.99
+European,M,20,104750,0.95,0.99
+European,M,25,86880,1.05,0.99
+European,M,30,84660,1.05,0.99
+European,M,35,94040,1.03,0.99
+European,M,40,112410,1.03,0.99
+European,M,45,113780,1.02,1
+European,M,50,118600,1.02,1
+European,M,55,105650,1.02,1
+European,M,60,97330,1.02,1
+European,M,65,86330,1.01,1.04
+European,M,70,64340,1.01,1.04
+European,M,75,44950,1.01,1.04
+European,M,80,33160,1.01,1.04
+European,M,85,18320,1.01,1.04
+European,M,90+,7200,1.01,1.04
+European,M,85+,25520,1.01,1.04
+Maori,F,0,40840,,
+Maori,F,5,37570,,
+Maori,F,10,34790,,
+Maori,F,15,33740,1.1,0.99
+Maori,F,20,30470,1.1,0.99
+Maori,F,25,24090,1.29,0.99
+Maori,F,30,21650,1.29,0.99
+Maori,F,35,21690,1.27,0.99
+Maori,F,40,22990,1.27,0.99
+Maori,F,45,20900,1.28,1
+Maori,F,50,20100,1.28,1
+Maori,F,55,15170,1.15,1
+Maori,F,60,11420,1.15,1
+Maori,F,65,7900,1.05,1.05
+Maori,F,70,5420,1.05,1.05
+Maori,F,75,3440,1.05,1.05
+Maori,F,80,2010,1.05,1.05
+Maori,F,85,820,1.05,1.05
+Maori,F,90+,310,1.05,1.05
+Maori,F,85+,1130,1.05,1.05
+Maori,M,0,43200,,
+Maori,M,5,39590,,
+Maori,M,10,37000,,
+Maori,M,15,35140,1.06,1
+Maori,M,20,28410,1.06,1
+Maori,M,25,20580,1.22,1
+Maori,M,30,18120,1.22,1
+Maori,M,35,18560,1.18,1
+Maori,M,40,19920,1.18,1
+Maori,M,45,18620,1.19,1.04
+Maori,M,50,17650,1.19,1.04
+Maori,M,55,13400,1.15,1.04
+Maori,M,60,10200,1.15,1.04
+Maori,M,65,7130,1.06,1.11
+Maori,M,70,4790,1.06,1.11
+Maori,M,75,2700,1.06,1.11
+Maori,M,80,1350,1.06,1.11
+Maori,M,85,460,1.06,1.11
+Maori,M,90+,130,1.06,1.11
+Maori,M,85+,590,1.06,1.11
+Other,F,0,2640,,
+Other,F,5,2100,,
+Other,F,10,1790,,
+Other,F,15,1990,,
+Other,F,20,2360,,
+Other,F,25,2750,,
+Other,F,30,2920,,
+Other,F,35,2320,,
+Other,F,40,1880,,
+Other,F,45,1570,,
+Other,F,50,1210,,
+Other,F,55,910,,
+Other,F,60,520,,
+Other,F,65,350,,
+Other,F,70,230,,
+Other,F,75,150,,
+Other,F,80,100,,
+Other,F,85,60,,
+Other,F,90+,30,,
+Other,F,85+,90,,
+Other,M,0,2700,,
+Other,M,5,2210,,
+Other,M,10,1980,,
+Other,M,15,2190,,
+Other,M,20,2720,,
+Other,M,25,2860,,
+Other,M,30,2890,,
+Other,M,35,2260,,
+Other,M,40,2010,,
+Other,M,45,1670,,
+Other,M,50,1290,,
+Other,M,55,950,,
+Other,M,60,630,,
+Other,M,65,390,,
+Other,M,70,230,,
+Other,M,75,130,,
+Other,M,80,80,,
+Other,M,85,50,,
+Other,M,90+,10,,
+Other,M,85+,60,,
+Pacific,F,0,21700,,
+Pacific,F,5,19130,,
+Pacific,F,10,18440,,
+Pacific,F,15,17760,0.97,0.99
+Pacific,F,20,15840,0.97,0.99
+Pacific,F,25,12160,1.1,0.99
+Pacific,F,30,11060,1.1,0.99
+Pacific,F,35,10430,1.05,0.99
+Pacific,F,40,10300,1.05,0.99
+Pacific,F,45,9590,1.02,1.01
+Pacific,F,50,7920,1.02,1.01
+Pacific,F,55,5930,0.96,1.01
+Pacific,F,60,4780,0.96,1.01
+Pacific,F,65,3410,0.9,1.06
+Pacific,F,70,2410,0.9,1.06
+Pacific,F,75,1550,0.9,1.06
+Pacific,F,80,950,0.9,1.06
+Pacific,F,85,480,0.9,1.06
+Pacific,F,90+,160,0.9,1.06
+Pacific,F,85+,640,0.9,1.06
+Pacific,M,0,22860,,
+Pacific,M,5,20230,,
+Pacific,M,10,19180,,
+Pacific,M,15,17970,0.99,1.02
+Pacific,M,20,14960,0.99,1.02
+Pacific,M,25,11550,1.14,1.02
+Pacific,M,30,10310,1.14,1.02
+Pacific,M,35,9720,1.1,1.02
+Pacific,M,40,9640,1.1,1.02
+Pacific,M,45,8930,1.1,1.09
+Pacific,M,50,7370,1.1,1.09
+Pacific,M,55,5720,1.06,1.09
+Pacific,M,60,4560,1.06,1.09
+Pacific,M,65,3200,1,1.14
+Pacific,M,70,2060,1,1.14
+Pacific,M,75,1200,1,1.14
+Pacific,M,80,600,1,1.14
+Pacific,M,85,220,1,1.14
+Pacific,M,90+,70,1,1.14
+Pacific,M,85+,290,1,1.14
+"Total people, ethnic group",F,0,151770,,
+"Total people, ethnic group",F,5,146490,,
+"Total people, ethnic group",F,10,144580,,
+"Total people, ethnic group",F,15,152330,,
+"Total people, ethnic group",F,20,155740,,
+"Total people, ethnic group",F,25,142160,,
+"Total people, ethnic group",F,30,141580,,
+"Total people, ethnic group",F,35,144860,,
+"Total people, ethnic group",F,40,166410,,
+"Total people, ethnic group",F,45,161890,,
+"Total people, ethnic group",F,50,161990,,
+"Total people, ethnic group",F,55,139590,,
+"Total people, ethnic group",F,60,123110,,
+"Total people, ethnic group",F,65,105190,,
+"Total people, ethnic group",F,70,80000,,
+"Total people, ethnic group",F,75,58330,,
+"Total people, ethnic group",F,80,46030,,
+"Total people, ethnic group",F,85,30440,,
+"Total people, ethnic group",F,90+,17440,,
+"Total people, ethnic group",F,85+,47880,,
+"Total people, ethnic group",M,0,160150,,
+"Total people, ethnic group",M,5,153570,,
+"Total people, ethnic group",M,10,152180,,
+"Total people, ethnic group",M,15,160150,,
+"Total people, ethnic group",M,20,159180,,
+"Total people, ethnic group",M,25,135330,,
+"Total people, ethnic group",M,30,129510,,
+"Total people, ethnic group",M,35,131500,,
+"Total people, ethnic group",M,40,150170,,
+"Total people, ethnic group",M,45,150100,,
+"Total people, ethnic group",M,50,151680,,
+"Total people, ethnic group",M,55,132170,,
+"Total people, ethnic group",M,60,117900,,
+"Total people, ethnic group",M,65,100570,,
+"Total people, ethnic group",M,70,74040,,
+"Total people, ethnic group",M,75,51010,,
+"Total people, ethnic group",M,80,36100,,
+"Total people, ethnic group",M,85,19340,,
+"Total people, ethnic group",M,90+,7500,,
+"Total people, ethnic group",M,85+,26840,,
