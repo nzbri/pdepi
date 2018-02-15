@@ -16,23 +16,23 @@ A lot of this code is specific to our particular data sources.
 
 Processes hospital admissions and mortality data to extract diagnoses
 
-[python/nmds.py]
+(python/nmds.py)
 
 ### Diagnoses
 
-[python/diagnoses.py]
+(python/diagnoses.py)
 
 Combine diagnoses from multiple sources
 
 ### Prescription data
 
-[python/pharmacdata.py]
+(python/pharmacdata.py)
 
 Reads raw prescription data, basic processing, saves into a database, export into format for dgub-based classification.
 
 ### Drug-based classification algorithm
 
-[python/process.py]
+(python/process.py)
 
 Classifies individuals as very probable, probable, possible, or unlikely.
 
@@ -43,13 +43,13 @@ Requires R http://www.r-project.org/ and Stan http://www.mc-stan.org/
 
 ### Common base statisitical code:
 
-[R/model-base.R]
+(R/model-base.R)
 
 ### Parkinson's ethnic analysis:
 
-[R/model-ethnicity.R]
-[R/pd_epi_model_ethnicity_v2.stan]
+(R/model-ethnicity.R)
+(R/pd_epi_model_ethnicity_v2.stan)
 
 ## Census data
 
-Contained in directory [input/] loaded by [R/model-base.R]
+Contained in directory (input/) loaded by (R/model-base.R)
