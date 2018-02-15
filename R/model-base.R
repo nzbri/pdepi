@@ -1,4 +1,3 @@
-setwd("~/working/Toni/prevalence")
 
 library(ggplot2)
 library(dplyr)
@@ -18,8 +17,6 @@ options(mc.cores=parallel::detectCores ())
 seed = 123
 
 ## Classification output (generated from Python)
-## Classification_v1 -- age/future paper
-## Classification_v2 -- ethnicity paper (some slight corrections to known diagnoses)
 Pall <- read.csv("output/classification_v2.csv")
 
 
