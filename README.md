@@ -28,7 +28,7 @@ Combine diagnoses from multiple sources
 
 (python/pharmacdata.py)
 
-Reads raw prescription data, basic processing, saves into a database, export into format for dgub-based classification.
+Reads raw prescription data, basic processing, saves into a database, export into format for drug-based classification.
 
 ### Drug-based classification algorithm
 
@@ -41,7 +41,7 @@ Classifies individuals as very probable, probable, possible, or unlikely.
 
 Requires R http://www.r-project.org/ and Stan http://www.mc-stan.org/
 
-### Common base statisitical code:
+### Common base statistical code:
 
 (R/model-base.R)
 
