@@ -1,7 +1,11 @@
 // Prevalence and Incidence calculations of Parkinson's by ethnicity in NZ
 // 
 // Calibration model taking into account medication classification, age, sex, and 
-// ethnicity
+// ethnicity. This uses a Bernoulli model.
+//
+// Counts derived from calibration model then go into a prevalence incidence model.
+// This uses a normal approximation to a binomial model. Can't use a binomial model directly
+// as can't cast real parameters back to integers. 
 //
 // Author: Daniel Myall <daniel.myall@nzbri.org>
 // Any queries or feedback on issues with model welcome.
@@ -27,7 +31,7 @@ data {
   int<lower=0,upper=n_age> age[N];
   int<lower=0,upper=n_pdclass> pdclass[N];
   
-  matrix[N, n_beta] X; // Predictor matrix
+  matrix[N, n_beta] X; // Predictor matrix (intercept, sex, medication class)
 
   // Diagnosis: PD == 1 / Other == 0
   int<lower=0,upper=1> y[N];
@@ -72,12 +76,9 @@ parameters {
 
   //Modelled proporation/rate by ethnicity, age, sex
   real theta_as_mean[n_types,n_age];
-  //real theta_as_sex;
   real theta_as_re[n_types, n_ethnicity-1, n_sex, n_age];
   real<lower=0> sigma_theta_as[n_types,n_age];
   
-  // non-centered reparameterisation
-  // real ethnic_corrected_count_std[n_types, n_ethnicity-1];
 
   
 }
@@ -158,8 +159,8 @@ transformed parameters {
   
   // Based on observed missing NHI in 2013 for prevalence (about a 0.2% increase in rates)
   // For incidence the missing percent over 2006-2013 was 1.2%
-  correction_missing_nhi[1] = 1.0/0.998;
-  correction_missing_nhi[2] = 1.0/0.988;
+  correction_missing_nhi[1] = 1.0/0.988; // Incidence
+  correction_missing_nhi[2] = 1.0/0.998; // Prevalence
   
   // Some of the new cases observed will be due to now being tracked via NHI
   // rather than actual new cases. In 2006-2013 the "mean" change was 0.8%, which means 
