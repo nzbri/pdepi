@@ -14,9 +14,9 @@ A lot of this code is specific to our particular data sources.
 
 ### National Minimal Dataset
 
-Processes hospital admissions and mortality data to extract diagnoses
+[python/nmds.py](python/nmds.py)
 
-(python/nmds.py)
+Processes hospital admissions and mortality data to extract diagnoses
 
 ### Diagnoses
 
